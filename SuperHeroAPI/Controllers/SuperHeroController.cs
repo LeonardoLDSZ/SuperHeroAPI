@@ -36,7 +36,7 @@ namespace SuperHeroAPI.Controllers
         {
             var hero = heroes.Find(h => h.Id == id);
             if (hero == null)
-                return BadRequest("Heore not found!");
+                return BadRequest("Hero not found!");
             return Ok(heroes);
         }
 
