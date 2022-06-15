@@ -18,7 +18,7 @@ namespace SuperHeroAPI.Controllers
                 },
                  new SuperHero {
                     Id = 2,
-                    Name = "Iron",
+                    Name = "Iron Man",
                     FirstName = "Tony",
                     Lastname = "Stark",
                     Place = "Long Island"
